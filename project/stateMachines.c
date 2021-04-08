@@ -3,7 +3,7 @@
 #include "led.h"
 
 void dim(){
-  ored_on = 0;
+  red_on = 0;
   static int count = 6;
   
   if(count == 6){
